@@ -1,0 +1,23 @@
+{
+  "name": "node-restapi-posgrest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "concurrently \"tsc --watch\" \"nodemon dist/app.js\"",
+    "build": "tsc"
+  },
+  "author": "Camilo Acevedo",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.0.5"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.9",
+    "@types/pg": "^7.14.6",
+    "concurrently": "^5.3.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6",
+    "pg": "^8.5.0"
+  }
+}
