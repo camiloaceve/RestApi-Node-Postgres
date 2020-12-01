@@ -64,4 +64,4 @@ export const updateUser = async (req:Request, res:Response): Promise<Response> =
         console.log(e)
         return res.status(500).json('Internal Server error');
     }
-} 
+}
